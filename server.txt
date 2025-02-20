@@ -1,0 +1,55 @@
+import React from 'react';
+import FacebookLogin from 'react-facebook-login';
+
+const LoginForm = (props) => {
+  const handleFacebookCallback = (response) => {
+    if (response?.status === "unknown") {
+        console.error('Sorry!', 'Something went wrong with facebook Login.');
+     return;
+    }
+    console.log(response);
+     
+   }
+
+  return (
+    <FacebookLogin 
+      buttonStyle={{padding:"6px"}}  
+      appId="1163251285221291"  // we need to get this from facebook developer console by setting the app.
+      autoLoad={false}  
+      fields="name,email,picture"  
+      callback={handleFacebookCallback}/>
+  );
+};
+export default LoginForm;
+import React from "react";
+import { GoogleOAuthProvider } from "@react-oauth/google";
+import { GoogleLogin } from "@react-oauth/google";
+import useAuth from "../../hooks/useAuth";
+
+
+
+const clientId =  
+  "726252295971-bgaujf253t731rqhiosiid8gu13rffgp.apps.googleusercontent.com";
+
+export default function Login() {
+  const { login, logout, isAuthenticated } = useAuth();
+
+  return (
+    <GoogleOAuthProvider clientId={clientId}>
+      <div>
+        {!isAuthenticated ? (
+          <GoogleLogin
+            onSuccess={login}
+            onFailure={logout}
+            style={{ marginTop: "100px" }}
+          />
+        ) : (
+          <div>
+            <p>Welcome, {auth?.clientId}</p>
+            <button onClick={logout}>logout</button>
+          </div>
+        )}
+      </div>
+    </GoogleOAuthProvider>
+  );
+}

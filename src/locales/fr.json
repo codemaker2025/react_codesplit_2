@@ -1,0 +1,12 @@
+{
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "street": "Rue",
+    "city": "Ville",
+    "country": "Pays",
+    "pincode": "Code postal",
+    "state": "État",
+    "message": "Message",
+    "submit": "Soumettre",
+    "successMessage": "Votre réponse a été enregistrée."
+  }

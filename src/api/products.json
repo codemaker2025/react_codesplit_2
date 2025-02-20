@@ -1,0 +1,134 @@
+{
+  "filters": {
+    "availability": [
+      {
+        "label": "In Stock",
+        "value": "inStock"
+      },
+      {
+        "label": "Out of Stock",
+        "value": "outOfStock"
+      }
+    ],
+    "priceRange": [
+      {
+        "label": "Under ₹5000",
+        "value": "under5000"
+      },  
+      {
+        "label": "₹5000 - ₹10000",
+        "value": "5000to10000"
+      },
+      {
+        "label": "₹10000 - ₹20000",
+        "value": "10000to20000"
+      },
+      {
+        "label": "Above ₹20000",
+        "value": "above20000"
+      }
+    ],
+    "storageOptions": [
+      {
+        "label": "32GB",
+        "value": "32GB"
+      },
+      {
+        "label": "64GB",
+        "value": "64GB"
+      },
+      {
+        "label": "128GB",
+        "value": "128GB"
+      },
+      {
+        "label": "256GB",
+        "value": "256GB"
+      }
+    ],
+   "brands": [
+  {
+    "label": "Samsung",
+    "value": "samsung"
+  },
+  {
+    "label": "Apple",
+    "value": "apple"
+  },
+  {
+    "label": "Xiaomi",
+    "value": "xiaomi"
+  },
+  {
+    "label": "Realme",
+    "value": "realme"
+  },
+  {
+    "label": "OnePlus",
+    "value": "oneplus"
+  },
+  {
+    "label": "Huawei",
+    "value": "huawei"
+  },
+  {
+    "label": "Oppo",
+    "value": "oppo"
+  },
+  {
+    "label": "Sony",
+    "value": "sony"
+  },
+  {
+    "label": "LG",
+    "value": "lg"
+  },
+  {
+    "label": "Nokia",
+    "value": "nokia"
+  },
+  {
+    "label": "Motorola",
+    "value": "motorola"
+  },
+  {
+    "label": "Asus",
+    "value": "asus"
+  },
+  {
+    "label": "Lenovo",
+    "value": "lenovo"
+  },
+  {
+    "label": "Vivo",
+    "value": "vivo"
+  },
+ 
+  {
+    "label": "Acer",
+    "value": "acer"
+  },
+  {
+    "label": "Dell",
+    "value": "dell"
+  },
+  {
+    "label": "HP",
+    "value": "hp"
+  },
+  {
+    "label": "TCL",
+    "value": "tcl"
+  },
+  {
+    "label": "Micromax",
+    "value": "micromax"
+  },
+  {
+    "label": "Infinix",
+    "value": "infinix"
+  }
+]
+
+  }
+}

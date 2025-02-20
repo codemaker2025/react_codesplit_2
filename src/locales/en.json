@@ -1,0 +1,13 @@
+{
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "street": "Street",
+    "city": "City",
+    "country": "Country",
+    "pincode": "Pincode",
+    "state": "State",
+    "message": "Message",
+    "submit": "Submit",
+    "successMessage": "Your response has been recorded."
+  }
+  

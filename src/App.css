@@ -1,0 +1,5 @@
+/* styles.css or App.css */
+small[role="alert"] {
+    color: red !important;
+  }
+  
