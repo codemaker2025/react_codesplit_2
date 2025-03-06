@@ -4,6 +4,7 @@ import useToast from "./Toast/useToast";
 import GET_CONTACT_PAGE from "../Graphql/queries/contactPage";
 
 export function useContactForm() {
+    
     const { loading, error, data } = useQuery(GET_CONTACT_PAGE,{
         fetchPolicy:'cache-first'
     });
@@ -14,6 +15,7 @@ export function useContactForm() {
     ] = useMutation(CONTACT_US_FORM_MUTATION);
 
     const { showSuccess, showError } = useToast();
+
     const handleFormSubmit = async (formApi, formState) => {
         console.log(formApi, formState);
 
